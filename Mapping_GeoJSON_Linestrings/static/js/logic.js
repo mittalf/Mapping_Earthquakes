@@ -27,7 +27,7 @@ let baseMaps = {
 let map = L.map('mapid', {
   center: [44.0, -80.0],
   zoom: 2,
-  layers: [light]
+  layers: [dark]
 })
 
 // Pass our map layers into our layers control and add the layers control to the map.
